@@ -1,17 +1,275 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px ;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+   
+}
+
+
+
 .sg-title {
     font-size: 1.7rem;
     font-weight: 400;
     color: #333;
     margin: 1rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    
+    
 }
 
 .sg-subtitle {
-    font-size: 1rem;
+    font-size: 2rem;
     border-bottom: solid 1px #aaa;
     font-weight: 400;
     color: #666;
     text-transform: uppercase;
     margin: 2rem 0 .5rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+  
 }
+
+.info {
+    font-size: 1rem;
+    border-bottom: solid 1px #aaa;
+    font-weight: 400;
+    color: black;
+    text-transform: bold;
+    margin: 2rem 0 .5rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin-left: 10px
+}
+
+#kleuren1 {
+    height: 80px;
+
+    background-color: hsla(52, 60%, 55%, 1);
+}
+
+#kleuren1 p,
+#kleuren2 p {
+
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    font-style: italic
+}
+
+#kleuren2 {
+    height: 80px;
+    background-color: rgb(148, 131, 23);
+}
+
+#kleuren3 {
+    height: 80px;
+    background-color: white;
+
+}
+
+#kleuren3 p {
+
+    color: black;
+    font-size: 40px;
+    margin-left: 20px;
+    font-style: italic
+}
+
+#kleuren4 {
+    height: 80px;
+    background-color: black;
+    ;
+
+}
+
+#kleuren4 p {
+
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    font-style: italic
+}
+
+#font {
+    font-family: 'Kaushan Script';
+    color: black;
+    font-size: 40px;
+    margin-left: 20px
+}
+
+#knoppen {
+    height: 200px;
+    width: 100vw
+}
+
+
+#iconstyle {
+    text-decoration: none;
+    font-size: 95px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: hsla(52, 60%, 55%, 1);
+    filter: contrast(100%);
+
+}
+
+
+#iconstyle:hover {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+#link {
+    text-decoration: none
+}
+
+#styletext {
+    margin-right: 80px
+}
+
+#stylebtn {
+
+    width: 240px;
+    font-family: 'Kaushan Script';
+    margin-top: 20px;
+    font-size: 30px;
+    background-color: rgb(148, 131, 23);
+    border-color: none;
+    border-radius: 20px;
+    color: white;
+    margin-left: 70px;
+    margin-right: 50px
+}
+
+#stylebtn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+#stylereservatie {
+
+    margin-top: 40px;
+    margin-left: 70px
+}
+
+#test {
+    font-family: 'Kaushan Script';
+    width: 120px;
+    font-size: 25px
+}
+
+#test:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s
+}
+#test {
+    font-family: 'Kaushan Script';
+    width: 150px;
+    font-size: 30px
+}
+
+#stylebestelling {
+       margin-top: 40px
+
+}
+
+#formulier {
+    height: 300px
+}
+
+
+#form1 {
+    font-family: 'Kaushan Script';
+    width: 80px ;
+    
+}
+#mail {
+    width: 350px
+}
+
+#date {
+    margin-top: 20px ;
+    width: 180px
+}
+
+#tijd {
+    margin-top: 20px ;
+    width: 180px
+}
+
+#personen {
+    margin-top: 20px ;
+    width: 180px
+}
+
+#aantal {
+    font-family: 'Kaushan Script';
+    width: 180px
+}
+
+#gsm {
+    margin-top: 20px ;
+    width: 250px ;
+    font-family: 'Kaushan Script';
+
+}
+
+#straat {
+    margin-top: 20px ;
+    width: 320px ;
+    font-family: 'Kaushan Script';
+
+    
+}
+
+#huisnummer {
+
+    margin-top: 20px ;
+    width: 120px ;
+    font-family: 'Kaushan Script';
+}
+
+#bestellingtijd {
+    margin-top: 20px ;
+    width: 240px ;
+    font-family: 'Kaushan Script';
+}
+
+
+#componenten {
+    height: 500px ;
+   
+}
+
+#navigatiebar {
+    height: 110px ;
+    width: 100% ;
+    margin-right: 0px ;
+    padding-right: 0px
+  
+   
+}
+
+#map {
+    margin-top: 50px ;
+   
+    margin-bottom: 50px
+}
+
+#googleLocatie {
+    
+    width: 1200px;
+    height: 400px;
+   
+
+}
+

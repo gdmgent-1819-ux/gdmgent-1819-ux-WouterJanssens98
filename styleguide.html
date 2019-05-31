@@ -1,21 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Styleguide</title>
+
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/styleguide.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src='./assets/js/script.js'></script>
 </head>
+
 <body>
-<div class="container">
-    <h1 class="sg-title">Digital styleguide</h1>
-    <h2 class="sg-subtitle">Kleuren</h2>
-    <h2 class="sg-subtitle">Typografie</h2>
-    <h2 class="sg-subtitle">Knopppen</h2>
-    <h2 class="sg-subtitle">Formulier</h2>
-    <h2 class="sg-subtitle">Componenten</h2>
-</div>
+    <div class="container-fluid">
+        <h1 class="sg-title">Digital styleguide</h1>
+        <h2 class="sg-subtitle">Kleuren</h2>
+
+        <div id="kleuren1" class="row">
+            <p> hsla(52,60%,55%,1) </p>
+        </div>
+        <div id="kleuren2" class="row">
+            <p>rgb(148, 131, 23)</p>
+        </div>
+        <div id="kleuren3" class="row">
+            <p>White</p>
+        </div>
+        <div id="kleuren4" class="row">
+            <p>Black</p>
+        </div>
+        <h2 class="sg-subtitle">Typografie</h2>
+        <div class="row">
+            <p id="font">Kaushan Script</p>
+        </div>
+        <h2 class="sg-subtitle">Knoppen</h2>
+        <div id="knoppen" class="row">
+            <div class="col-1 ">
+                <a id="link" href=""> <i id="iconstyle" class="fas fa-arrow-alt-circle-down"></i> </a>
+            </div>
+            <div id="styletext" class="col-2">
+                <a href=""> <button id="stylebtn" type="submit">NAAR DE BESTELPAGINA </button></a>
+            </div>
+            <div id="stylereservatie" class="col-2">
+                <button id="test" type="submit">Reserveer! </button>
+            </div>
+            <div id="stylebestelling" class="col-1">
+                <button id="test">Bestellen!</button>
+            </div>
+        </div>
+
+        <h2 class="sg-subtitle">Formulier</h2>
+        <div id="formulier" class="row">
+            <div id="form1" class="col-4 offset-md-1">
+
+                <input id="mail" class="form-control" type="text" placeholder="Noteer hier je e-mail.">
+
+                <input id="date" class="form-control" type="date" required>
+
+
+                <select id="tijd" class="form-control" required>
+
+                    <option>18:00</option>
+                    <option>18:30</option>
+                    <option>19:00</option>
+                    <option>19:30</option>
+                    <option>20:00</option>
+                    <option>20:30</option>
+                    <option>21:00</option>
+
+                </select>
+
+
+                <select id="personen" class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>4+</option>
+                </select>
+
+            </div>
+            <div class="col-3">
+
+                <select id="aantal" class="form-control orderaantal">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+
+
+                <input id="gsm" class="form-control" type="phone" placeholder="Noteer hier gsm-nummer">
+
+                <input id="straat" class="form-control" type="phone" placeholder="Noteer hier je straatnaam">
+
+                <input id="huisnummer" class="form-control" type="text" placeholder="1,2,3, etc..." required>
+
+
+                <select id="bestellingtijd" class="form-control" required>
+                    <option>Zo snel mogelijk</option>
+                    <option>18:30</option>
+                    <option>19:00</option>
+                    <option>19:30</option>
+                    <option>20:00</option>
+                    <option>20:30</option>
+                    <option>21:00</option>
+                    <option>21:30</option>
+                    <option>22:00</option>
+                    <option>22:30</option>
+
+                </select>
+
+            </div>
+
+        </div>
+        <h2 class="sg-subtitle">Componenten</h2>
+
+
+
+        <div id="componenten" class="row">
+            <div id="navigatiebar" class="row nav-row">
+                <div class="col nav-col" id="opsomming">
+                    <ul id="list">
+                        <li>
+                            <a href="">Menu</a>
+                        </li>
+
+                        <li>
+                            <a href="">Reserveren</a>
+                        </li>
+
+                        <li>
+                            <a href="">Bestellen</a>
+
+                        </li>
+
+                        <li>
+                            <a href="">Info</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div id="map" class="row">
+                    <div id="googleLocatie" class="col-6"></div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <script src='./assets/js/script.js'></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHRqA4jbDJwOePIF0BKK6ua4DqwL7x3f8&callback=myMap">
+    </script>
+
 </body>
+
 </html>

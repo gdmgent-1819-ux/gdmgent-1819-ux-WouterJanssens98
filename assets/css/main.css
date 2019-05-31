@@ -1,9 +1,558 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+html {
+    scroll-behavior: smooth;
+}
 
-@import url('variables.css');
-@import url('base.css');
+body {
+    font-family: 'Kaushan Script'
+}
 
-@import url('components/flex-grid.css');
-@import url('components/buttons.css');
-@import url('components/forms.css');
 
+/* HOME PAGINA - EERSTE PAGINA */
+
+.img-col {
+    background-image: url("../img/2dan-gold-105699-unsplash.jpg");
+    height: 880px;
+    width: 100vw;
+    background-size: cover;
+
+
+    font-size: 80px;
+    color: rgb(247, 215, 12);
+}
+
+.img-col p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 110px;
+    color: white;
+    margin-top: 290px
+}
+
+.img-col a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+
+#bedrijfsnaam {
+    text-shadow: 10px black;
+    color: rgb(65, 57, 5);
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Kaushan Script';
+    padding-top: 0px;
+
+}
+
+#bedrijfsnaam2 {
+    height: 100px;
+    text-shadow: 10px black;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Kaushan Script';
+    padding-top: 0px;
+    text-decoration: none
+}
+
+#order2 {
+    padding-bottom: 0px;
+    margin: 0 auto;
+    padding-bottom: 5px
+}
+
+#homepage {
+    color: white;
+    text-decoration: none
+}
+
+#opsomming {
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+#opsomming a {
+    text-decoration: none
+}
+
+.nav-col {
+    border: 0px solid red;
+    height: 100px
+}
+
+.nav-row {
+    background-color: hsla(52, 60%, 55%, 1);
+
+}
+
+#list li {
+    display: inline;
+    word-spacing: 100px;
+    font-size: 3rem;
+}
+
+#list a {
+    color: rgb(65, 57, 5);
+    font-family: 'Kaushan Script';
+    transition: all 0.5s ease;
+
+}
+
+#icondown {
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: hsla(52, 60%, 55%, 1);
+    filter: contrast(100%);
+
+}
+
+
+#icondown:hover {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+#list a:hover {
+    color: white;
+
+}
+
+/* HOME PAGINA - TWEEDE PAGINA */
+
+.history {
+    height: 1000px;
+    background-color: hsla(52, 60%, 55%, 1);
+}
+
+.announcement {
+    background-color: hsla(52, 60%, 55%, 1);
+    height: 120px;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.menu {
+    text-align: center;
+    margin-top: 10px;
+    margin: 0 auto;
+    font-size: 90px;
+    text-align: center;
+    height: 120px;
+    color: white;
+    margin-bottom: 10px
+}
+
+
+
+.gentcol1 {
+    background-image: url("../img/bobby-rodriguezz-1043119-unsplash.jpg");
+
+    background-size: cover;
+   
+}
+
+
+.gentcol2 {
+    background-image: url("../img/jae-park-730857-unsplash.jpg");
+
+    background-size: cover;
+    
+}
+
+.historycol {
+    height: 600px;
+
+}
+
+.historycol h1 {
+    margin-top: 0px;
+    font-size: 30px;
+    text-align: justify
+}
+
+.historycol h2,
+h3,
+h4 {
+    color: black;
+    margin-top: 15px;
+    padding: 5px;
+    padding-top: 0px
+}
+
+#categorie {
+    font-size: 35px;
+    border-bottom: 0px
+}
+
+#categorie2 {
+    font-size: 35px;
+    border-bottom: 0px
+}
+
+#introtekst h1 {
+    border-bottom: 2px solid black;
+    padding-bottom: 8px
+}
+
+
+
+.historycol p {
+    font-size: 21px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 5px
+}
+
+.price {
+    color: white ;
+    font-size: 20px;
+    
+}
+
+.secondpage {
+    height: 975px;
+    background-color: hsla(52, 60%, 55%, 1);
+    margin-bottom: 0px
+}
+
+.menu2 {
+    height: 100px
+}
+
+.menu2 p {
+
+    margin: 0 auto;
+    font-size: 50px;
+    text-align: center;
+    height: 100px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+#information {
+    margin-top: 20px ;
+   
+    
+}
+#information h1,
+h2,
+h3 {
+    font-size: 25px;
+    border-bottom: 1px solid black;
+    
+}
+
+#information p {
+    font-size: 22px
+    
+}
+
+#googleLocatie {
+    margin-left: 20px;
+    margin: 0 auto;
+    width: 800px;
+    height: 300px;
+    align-content: center;
+
+}
+
+.menu3,
+.menu2 {
+    background-color: rgb(148, 131, 23);
+    margin-bottom: 20px;
+
+}
+
+.menu3 {
+    margin-top: 20px;
+    height: 100px
+}
+
+.menu3 p {
+
+    margin: 0 auto;
+    font-size: 50px;
+    text-align: center;
+    height: 120px;
+    color: white;
+    margin-bottom: 17px;
+    margin-top: 10px
+}
+#finalform {
+    background-color: hsla(52, 60%, 55%, 1);
+}
+.orderpage {
+    height: 525px;
+    margin-top: 30px;
+    margin-right: 25px;
+    padding-right: 30px;
+    border-right: 3px solid white ;
+   
+}
+
+.orderpage p {
+    color: black;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 0px
+}
+
+.options {
+    height: 30px;
+    margin-left: 500px
+}
+
+#productMenu {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.orderform {
+    margin-top: 30px;
+    border-right: 0px solid white;
+
+}
+
+
+
+.orderform p {
+    font-size: 20px
+}
+
+.reservatie p {
+    color: black;
+    font-size: 22px;
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 0px
+}
+
+.reservatieform {
+    margin-left: 20px;
+    font-size: 20px ;
+    background-color : hsla(52, 60%, 55%, 1);
+}
+
+#productAantal {
+    margin-top: 35px;
+    font-size: 20px;
+    margin-bottom: 0px
+}
+
+.aantallen {
+    padding-bottom: 10px
+}
+
+#aantallen3 {
+    padding-top: 5px;
+    padding-bottom: 10px
+}
+
+#aantallen4 {
+    padding-top: 30px;
+    padding-bottom: 10px
+}
+
+#aantallen5 {
+    padding-top: 35px;
+    padding-bottom: 10px
+}
+
+#aantallen6 {
+    padding-top: 45px;
+    padding-bottom: 10px
+}
+
+#aantallen7 {
+    padding-top: 32px;
+    padding-bottom: 10px
+}
+
+
+#paymentpage {
+    height: 525px;
+    margin-top: 30px;
+    margin-right: 25px;
+    padding-right: 30px;
+    border-left: 3px solid white
+}
+
+#paymentpage h2 {
+    font-size: 22px;
+    margin-top: 5px
+}
+
+.bestelform {
+    margin-top: 10px
+}
+
+.redirect p {
+    text-align: left;
+    font-size: 22px
+}
+
+#submit-btn {
+    font-size: 25px
+}
+
+#submit-btn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    border-radius: 2px
+}
+
+#redirectbtn {
+    font-size: 30px;
+    background-color: rgb(148, 131, 23);
+    border-color: none;
+    border-radius: 20px;
+    color: white
+}
+
+#redirectbtn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+#finalorder {
+    background-color : hsla(52, 60%, 55%, 1);
+}
+
+
+/* Small devices */ 
+@media (max-width:650px) {
+    #list li {
+        margin-left: 0px;
+        margin-right: 5px;
+        display: inline;
+        word-spacing: 2px;
+        font-size: 25px;
+
+    }
+
+    .img-col p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 60px;
+        color: white;
+        margin-top: 290px
+    }
+
+    .announcement p {
+        font-size: 30px
+    }
+
+    .menu p {
+        font-size: 40px
+    }
+
+    .historycol h1 {
+        font-size: 17px
+    }
+
+    #categorie, #categorie2 {
+        font-size:20px
+    }
+    .historycol h2,h3,h4 {
+        color: black;
+        padding: 0px;
+        padding-top: 0px
+    }
+    .historycol p {
+        font-size: 13px;
+        text-align: left;
+        margin-left: 0px;
+        margin-right: 5px ;
+        margin-bottom : 1px
+    }
+    #information h1,h2,h3 {
+        font-size: 20px
+    }
+    #information p {
+        font-size: 15px
+    }
+    #homepage{
+        font-size: 25px
+    }
+    #order2 {
+        font-size: 25px
+    }
+    .price {
+        font-size: 10px
+    }
+    
+}
+
+@media (min-width: 651px) and (max-width: 1450px) {
+    #list li {
+        margin-left: 0px;
+        display: inline;
+        word-spacing: 20px;
+        font-size: 40px;
+    }
+
+    .img-col p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 90px;
+        color: white;
+        margin-top: 290px
+    }
+
+    .announcement p {
+        font-size: 40px
+    }
+
+    .menu p {
+        font-size: 60px
+    }
+
+    .historycol h1 {
+        font-size: 17px
+    }
+    .historycol p {
+        font-size: 16px ;
+        margin-left: 0px;
+        margin-right: 5px ;
+        margin-bottom : 1px
+    }
+    
+    #categorie, #categorie2 {
+        font-size: 25px 
+    }
+    .historycol h2,h3,h4 {
+   font-size: 19px ;
+    color: black;
+    margin-top: 0px;
+    padding: 0px;
+    padding-top: 0px
+}
+    #homepage{
+        font-size: 40px
+    }
+    #order2 {
+        font-size: 40px
+    }
+    .orderpage p {
+        font-size: 15px
+    }
+    #price {
+        font-size: 15px ;
+        margin-top: 0px
+    }
+    .orderaantal {
+        font-size: 15px
+    }
+}

@@ -1,12 +1,225 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Eindopdracht UX</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bistro t'Gentse</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/main.css'>
+    <script src='./assets/js/script.js'></script>
 </head>
+
 <body>
+    <!-- Navigatiebar-->
+
+    <div class="container-fluid">
+        <div class="row nav-row">
+                        <div class="col-12  nav-col" id="opsomming">
+                <ul id="list">
+                    <li>
+                        <a href="#menukaart">Menu</a>
+                    </li>
+
+                    <li>
+                        <a href="#info">Reserveren</a>
+                    </li>
+
+                    <li>
+                        <a href="./bestelpagina.html">Bestellen</a>
+
+                    </li>
+
+                    <li>
+                        <a href="#googleLocatie">Info</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col img-col">
+                <p>Bistro 't Gentse</p>
+                <a href="#menukaart"> <i id="icondown" class="fas fa-arrow-alt-circle-down"></i> </a>
+            </div>
+        </div>
+    </div>
+    <div id="menukaart" class="container-fluid history">
+        <div class="row">
+            <div class="col announcement">
+                <p>Voor studenten, door studenten &NonBreakingSpace; - Bistro 't Gentse
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col menu">
+                <p>MENU
+                </p>
+            </div>
+        </div>
+
+        <!-- DRIE MENUS NAAST ELKAAR-->
+        <div class="row">
+            <div class="col-3 offset-md-1 gentcol1">
+
+            </div>
+            <div id="introtekst" class="col-4 historycol">
+                <h1>In Bistro 't Gentse zijn onze menu's gebaseerd op de noden van de Gentse studenten. Gezond, een
+                    tussendoortje, een snelle hap, voor ieder wat wils!</h1>
+                <h2 id="categorie"> Snacks
+                </h2>
+                <p> <span class="price">€5.50 </span> Worstenbroodjes met een pikant sausje </p>
+                <p> <span class="price">€7.50 </span> Ovengebakken taco's op Gentse wijze </p>
+                <p> <span class="price">€6.50 </span> Double Trouble - Luxehamburger geserveerd met frietjes </p>
+                <p> <span class="price">€9.50 </span> Mix van gefrituurde hapjes, geserveerd met 3 zoete sauzen </p>
+                <h3 id="categorie2"> Vegetarisch
+                </h3>
+                <p> <span class="price">€7.50 </span> Vegetarische wok op basis van rijst & soja </p>
+                <p> <span class="price">€8.50 </span> Gebakken tofu met ovengroenten </p>
+                <p> <span class="price">€9.50 </span> Vegetarische salade op basis van balsamico & pijnboompitten </p>
+                <p> <span class="price">€9.50 </span> Share your veggi - mix van vegetarische hapjes met dipsaus </p>
+
+            </div>
+            <div class="col-3 gentcol2">
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="info" class="container-fluid secondpage">
+        <div class="row menu2">
+            
+            <p>LOCATIE
+            </p>
+        </div>
+        <div  class="row">
+            <div id="information" class="col-2 offset-md-3">
+                <h1>Adres</h1>
+                <p> Botermarkt 4, 9000 Gent</p>
+
+                <h2>Telefoon</h2>
+                <p> 0495 / 89 26 30 </p>
+
+                <h2>E-mail</h2>
+                <p> bistrotgentse@gmail.com </p>
+            </div>
+            <div id="googleLocatie" class="col-4"></div>
+        </div>
+
+        <div class="row menu3" id="order">
+            <p> RESERVATIE
+            </p>
+        </div>
+        <div id="finalform" class="row">
+            <div class="col-5 offset-md-3 reservatie ">
+               <p >Op onderstaande form kan u een plaatsje reserveren in onze bistro.
+               </p>
+               <div class="col-md-8 ">
+                    <div class="reservatieform">
+                        <form>
+                            <div class="form-group">
+                                
+                                <span class="form-label">Emailadres</span>
+                                <input class="form-control" type="text" placeholder="Noteer hier je e-mail.">
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <span class="form-label">Datum</span>
+                                        <input id="date" class="form-control" type="date" required>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <span class="form-label">Tijd</span>
+                                            <select class="form-control">
+                                                <option>18:00</option>
+                                                <option>18:30</option>
+                                                <option>19:00</option>
+                                                <option>19:30</option>
+                                                <option>20:00</option>
+                                                <option>20:30</option>
+                                                <option>21:00</option>
+                                            </select>
+                                            <span class="select-arrow"></span>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <span class="form-label">Aantal personen</span>
+                                        <select class="form-control">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>4+</option>
+                                        </select>
+                                        <span class="select-arrow"></span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="form-btn">
+                                <button onclick=reservatie() id="submit-btn">Reserveer!</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 redirect">
+
+                <p>Liever je favoriete gerecht thuis geleverd?</p>
+
+                <a href="./bestelpagina.html"> <button  id="redirectbtn" type="submit">NAAR DE BESTELPAGINA </button></a>
+
+               
+            </div>
+
+            
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src='./assets/js/script.js'></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHRqA4jbDJwOePIF0BKK6ua4DqwL7x3f8&callback=myMap">
+    </script>
+
 </body>
+
 </html>
